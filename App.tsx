@@ -1,6 +1,5 @@
-import { ThemeProvider } from "styled-components/native";
+import { ThemeProvider } from "styled-components";
 import { Home } from "./src/screens/Home";
-import { GlobalStyle } from "./src/styles/global";
 import { defaultTheme } from "./src/styles/themes/default";
 
 import * as Font from 'expo-font';
@@ -20,7 +19,6 @@ export default function App() {
   return (
     <ThemeProvider theme={defaultTheme} >
       <Home />
-      <GlobalStyle />
     </ThemeProvider>
   );
 }
