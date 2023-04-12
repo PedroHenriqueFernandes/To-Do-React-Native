@@ -7,6 +7,7 @@ export const Container = styled.View`
     height: 54px;
     padding: 0 24px;
     gap: 40px;
+    margin-top: -27px;
 `;
 
 export const InputText = styled.TextInput`
