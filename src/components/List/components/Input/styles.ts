@@ -6,7 +6,7 @@ export const Container = styled.View`
     justify-content: center;
     height: 54px;
     padding: 0 24px;
-    gap: 40px;
+    gap: 4px;
     margin-top: -27px;
 `;
 
@@ -16,6 +16,7 @@ export const InputText = styled.TextInput`
     height: 54px;
     border-radius: 6px;
     padding: 0 16px;
+    color: ${({ theme }) => theme["gray-100"]};
 `;
 
 export const Button = styled.TouchableOpacity`
@@ -26,5 +27,4 @@ export const Button = styled.TouchableOpacity`
     border-radius: 6px;
     align-items: center;
     justify-content: center;
-    margin-left: 4px;
 `;
