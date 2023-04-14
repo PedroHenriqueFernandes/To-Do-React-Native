@@ -1,6 +1,7 @@
 import { ThemeProvider } from "styled-components";
 import { Home } from "./src/screens/Home";
 import { defaultTheme } from "./src/styles/themes/default";
+import 'react-native-get-random-values'
 
 import * as Font from 'expo-font';
 import { Inter } from './assets/fonts/expo-asset';

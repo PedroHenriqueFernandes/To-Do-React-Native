@@ -1,10 +1,14 @@
-import { Image } from "react-native";
-import { Container } from "./styles";
+/* eslint-disable jsx-a11y/alt-text */
+import { Image } from 'react-native'
+import { Container } from './styles'
 
 export function Header() {
-    return (
-        <Container>
-            <Image style={{ width: 120 }} source={require('../../../assets/logo.png')} />
-        </Container>
-    )
+  return (
+    <Container>
+      <Image
+        style={{ width: 120 }}
+        source={require('../../../assets/logo.png')}
+      />
+    </Container>
+  )
 }
